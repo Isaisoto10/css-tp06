@@ -1,11 +1,14 @@
+/* estilos */
 body {
     background-color: #fefae0;
     color: #d4a373;
     text-align: center;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-   
-    }
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* HEADER */
 header {
     background-color: #e9edc9;
     color: #ccd5ae;
@@ -39,6 +42,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* MAIN */
 main {
     padding: 20px;
 }
@@ -55,7 +59,7 @@ main section h2 {
     font-size: 2.5em;
     font-weight: 500;
     margin-left: 50px;
-    text-decoration:wavy;
+    text-decoration: wavy;
 }
 
 .container {
@@ -68,24 +72,25 @@ main section h2 {
     width: 250px;
 }
 
+/* FOOTER */
 footer {
     background-color: #e9edc9;
-   
+
 }
+
 footer ul {
     margin: 5;
     list-style: none;
-   
 }
+
 footer ul li {
     display: inline-block;
     border: 3px none;
     margin: 0.5px;
     padding: 10px;
-    
 }
+
 .iconos {
     width: 25px;
     margin-left: 5px;
-   
 }
