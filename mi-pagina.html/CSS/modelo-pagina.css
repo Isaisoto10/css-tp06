@@ -1,0 +1,72 @@
+/* archivo de estilos */
+body {
+    background-color: #588157;
+    color: #669017;
+    text-align: center;
+    margin: 0; /* eliminamos el margen natural del elemento */
+    font-family: 'Times New Roman', Times, serif; /* cambia el tipo de fuente */
+}
+/* encabezado */
+header {
+    background-color: #dad7cd;
+    color: #344e41;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+h1 {
+    font-size: 2.5em; /* metrica em */
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    border: 1px solid rgb(0, 109, 73); /* tamaño / tipo de borde / color */
+    padding: 0;
+}
+nav ul li a {
+    color: #3a5a40;
+    text-decoration: none;
+}
+/* MAIN */
+main {
+    padding: 20px;
+}
+section {
+    background-color: #dad7cd;
+    border: 2px solid #007e5e;
+    margin: 3px 2px;
+    text-align: left;
+}
+main section h2 {
+    margin: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.imagen {
+    margin: 5px;
+}
+/* footer */
+footer {
+    background-color: #a3b18a;
+}
+footer ul {
+    margin: 0;
+    list-style: none;
+}
+footer ul li {
+    display: inline-block;
+}
+
+.iconos {
+    width: 25px;
+    margin-left: 5px;
+}
