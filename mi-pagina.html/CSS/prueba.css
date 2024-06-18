@@ -1,0 +1,50 @@
+.Imagen {
+    width: 80px;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 10px;
+}
+
+.container {
+    border: 10px solid rgb(173, 173, 173);
+    border-radius: 25px 25px 25px 25px;
+}
+
+.alineo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end
+}
+
+button {
+    align-items: end;
+}
+
+.caja {
+    background: rgb(0, 255, 218);
+    background: linear-gradient(90deg, rgba(0, 255, 218, 1) 4%, rgba(231, 83, 91, 1) 48%, rgba(181, 209, 33, 1) 100%);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 19px 19px 19px 19px;
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #919191;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #01060a;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 25px 25px 25px 25px;
+}
+.separacion {
+    margin: 10px;
+}
